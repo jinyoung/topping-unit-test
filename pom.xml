@@ -1,0 +1,12 @@
+fileName: pom.xml
+ifDuplicated: merge
+---
+<project>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId isKey="true">spring-cloud-stream-test-support</artifactId>
+			<scope>test</scope>
+		</dependency>
+    </dependencies>
+</project>
